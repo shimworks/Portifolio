@@ -1,51 +1,63 @@
 body{
-    background-color: rgb(241, 222, 222);
+    background-color: rgb(192, 192, 192);
     font-family: sans-serif;
-
-
 }
 .sessoes{
     margin: auto;
-    width: 80%;
-    background-color: rgb(223, 223, 223);
+    width: 65%;
+    background-color: rgb(204, 204, 204);
     padding: 10px;
-
+    border-radius: 5px;
 }
 .sessao-foto{
-    background-color: antiquewhite;
-    width: 80%;
-    margin:auto;
-    text-align: center;
+    width: 82%;
+    text-align: left;
+    margin-left: auto;
 }
     
 .sessao-container{
-    width: 30%;
+    width: 25%;
     text-align: left;
-    margin: 10px;
+    margin-left: 25px;
     display: inline-block;
     vertical-align: middle;
 }
+.sessao-navegador-containter{
 
+    width: 30%;
+    float: right;
+    margin-right: 20%;
+    margin-top: 40px;
+
+}
+.sessao-navegador{
+    margin-right: 12%;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+        
+}
+.navegador {
+    width: 150px;
+    line-height: 25px;
+    text-decoration: none;
+    text-align: left;
+    border-radius: 7px; 
+    font-weight: 800;
+    color: black;    
+    margin: auto;
+    margin-top: 10px;
+}
 .picture{
   border-radius: 15%; 
   width: 200px;
+  margin: 15px;
 }
 .word{
     vertical-align: auto;
 }
  div.habilidades { 
-    padding: 50px;
-    border-radius: 10px;
         }
-.navegador{
-    background-color:rgb(89, 195, 195); 
-    width: 150px;
-    line-height: 25px;
-    text-decoration: none;
-    border-radius: 7px; 
-    font-weight: 800;
-    color: black;       
-}
 .button{
     background-color: rgb(102, 106, 134);
     padding: 10px;
@@ -56,4 +68,5 @@ body{
 }
 .center{
     text-align: center;
+    margin-top: 20px;
 }
