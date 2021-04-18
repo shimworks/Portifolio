@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(241, 222, 222);
+    font-family: sans-serif;
+
+
+}
+.sessoes{
+    margin: auto;
+    width: 80%;
+    background-color: rgb(223, 223, 223);
+    padding: 10px;
+
+}
+.sessao-foto{
+    background-color: antiquewhite;
+    width: 80%;
+    margin:auto;
+    text-align: center;
+}
+    
+.sessao-container{
+    width: 30%;
+    text-align: left;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.picture{
+  border-radius: 15%; 
+  width: 200px;
+}
+.word{
+    vertical-align: auto;
+}
+ div.habilidades { 
+    padding: 50px;
+    border-radius: 10px;
+        }
+.navegador{
+    background-color:rgb(89, 195, 195); 
+    width: 150px;
+    line-height: 25px;
+    text-decoration: none;
+    border-radius: 7px; 
+    font-weight: 800;
+    color: black;       
+}
+.button{
+    background-color: rgb(102, 106, 134);
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    border-radius: 7px; 
+}
+.center{
+    text-align: center;
+}
