@@ -5,73 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Protifólio</title>
-    <style>
-    body{
-        background-color: rgb(241, 222, 222);
-        font-family: sans-serif;
-    }
-      .picture{
-        border-radius: 15%; width: 200px;
-    
-    }
-    .sessoes{
-        background-color: rgb(153, 88, 42);
-        padding: 10px;
-        text-align: center;
-        border-radius: 7px; 
-    }
-    .bcolor{
-        background-color: rgb(194, 59, 59); 
-        padding: 50px;
-        border-radius: 10px;
-            }
-    .navegador{
-        background-color:rgb(89, 195, 195); 
-        width: 150px;
-        line-height: 25px;
-        text-decoration: none;
-        border-radius: 7px; 
-        font-weight: 800;
-        color: black;       
-    }
-    .button{
-        background-color: rgb(102, 106, 134);
-        padding: 10px;
-        text-decoration: none;
-        color: rgb(255, 255, 255);
-        align-items: center;
-        border-radius: 7px; 
-    }
-    .center{
-        text-align: center;
-    }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+    <body>
+        <div class="sessoes">
+            <h1>Portifólio</h1>
+            <h2>Caio Takeshi Shimizo</h2>
+        </div>
 
-    <h1 class="sessoes">Portifólio</h1>
-    <h2>Caio Takeshi Shimizo</h2>
+        <div class="sessao-foto">
+            <img class="picture sessao-container" src="FotoCaio.jpg" alt="Foto Caio Takeshi">
+                <div class="sessao-container">
+                    <p>Sou brasileiro de Joaquim Távora - PR <br> Fiz 2 cursos de criação de jogos e acabei me interesando pela área de programação.</p>
+                </div>
+            <div class="sessao-navegador-containter">
+                <h4 class="sessao-navegador">Algumas de minhas habilidades</h4>
+                <ul class="navegador">
+                    <li><a class="navegador" href=#Cameraman>Camera man</a></li>
+                    <li><a class="navegador" href=#Video>Editor de Videos</a></li>
+                    <li><a class="navegador" href=#Fotos>Editor de Fotos</a></li>
+                </ul>
+            </div>
+        </div>
 
-    <img class="picture" src="FotoCaio.jpg" alt="Foto Caio Takeshi">
-    
-    <p>Sou brasileiro de Joaquim Távora - PR <br> Fiz 2 cursos de criação de jogos e acabei me interesando pela área de programação.</p>
-    
-    <h4 class="sessoes">Algumas de minhas habilidades</h4>
-    <ul class="navegador">
-        <li><a class="navegador" href=#Cameraman>Camera man</a></li>
-        <li><a class="navegador" href=#Video>Editor de Videos</a></li>
-        <li><a class="navegador" href=#Fotos>Editor de Fotos</a></li>
-    </ul>
+        
+        <div class="habilidades sessoes">
+            <p id="Cameraman"></p> 
+            <strong>Cameraman</strong><br> Comecei trabalhando em uma loja de Foto e Informática onde tambem havia filmagens de grandes eventos como Casamento, Festas de Aniversario Infantil e de 15 anos, Bodas e Formaturas. Aprendi na prática como usar diferentes tipos de Câmeras e Filmadoras, foco, ponto de interesse entre varias outras coisas em relação a F ilmagens e os Equipamentos.</p>
+            <p id="Video"> <strong>Editor de Videos</strong><br> Devido a necessidade de também fazer a edição dos video que foram filmados aprendi de forma autonoma como fazer as edições de video, teoria das cores, composições, timming, ritimo, entre varias teorias para fazer uma montagem que emociona qualquer pessoa.</p>
+            <p id="Fotos"> 
+            <strong>Editor de Fotos</video></strong><br> Fazer tratamentos, correções, reproduções, colorização de fotos para terem a melhor qualidade na revelação.</p>
+        </div>
+        
 
-    <p class="bcolor"id="Cameraman"> 
-        <strong>Cameraman</strong><br> Comecei trabalhando em uma loja de Foto e Informática onde tambem havia filmagens de grandes eventos como Casamento, Festas de Aniversario Infantil e de 15 anos, Bodas e Formaturas. Aprendi na prática como usar diferentes tipos de Câmeras e Filmadoras, foco, ponto de interesse entre varias outras coisas em relação a Filmagens e os Equipamentos.</p>
-    <p class="bcolor" id="Video"> <strong>Editor de Videos</strong><br> Devido a necessidade de também fazer a edição dos video que foram filmados aprendi de forma autonoma como fazer as edições de video, teoria das cores, composições, timming, ritimo, entre varias teorias para fazer uma montagem que emociona qualquer pessoa.</p>
-    <p class="bcolor" id="Fotos"> 
-        <strong>Editor de Fotos</video></strong><br> Fazer tratamentos, correções, reproduções, colorização de fotos para terem a melhor qualidade na revelação.</p>
-    <br>
+        <div class="center"> <a class="button" href="https://github.com/shimworks/Portifolio"     
+        target="_blank"><strong>Meu github shimworks</strong></a>
+        </div>
 
-    <div class="center"> <a class="button" href="https://github.com/shimworks/Portifolio"     
-    target="_blank"><strong>Meu github shimworks</strong></a>
-    </div>
-</body>
+    </body>
 </html>
