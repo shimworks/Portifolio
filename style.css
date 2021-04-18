@@ -24,6 +24,7 @@ body{
     margin-left: 25px;
     display: inline-block;
     vertical-align: middle;
+    
 }
 
 .sesessao-navegador-containter{
@@ -34,8 +35,9 @@ body{
 }
 
 .sessao-navegador{
-        text-align: center;
+    text-align: center;   
 }
+
 .navegador{
     margin: auto;
 }
