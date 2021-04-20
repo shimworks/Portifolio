@@ -1,0 +1,32 @@
+header{
+    background-color: antiquewhite;
+    height: auto;
+}
+body{
+    margin: 0;
+}
+h1{
+    margin: 0%;
+    padding: 2% 0% 0% 2%;
+}
+.lista-header{
+background-color: aliceblue;
+
+}
+
+.lista-header li{
+    text-align: center;
+    display: inline-block;
+    padding: 10px 15px 10px 15px;
+    background-color: aliceblue;
+    border-color: rgb(197, 197, 197);
+    border-style: solid;
+    border-width: 1px; 
+    width: 100px;
+    margin-left: -4px; 
+}
+
+a{
+    text-decoration: none;  
+    color: black;
+}
